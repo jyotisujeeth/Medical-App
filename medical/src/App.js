@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Header from "../Components/Header/Header";
-import Form from "../Components/Form/Form";
-import List from "../Components/List/List";
+import Header from "./components/Header/Header";
+import Form from "./components/Form/Form";
+import List from "./components/List/List";
 import ContextProvider from "./Store/ContextProvider";
-import Cart from "./Components/Cart/Cart";
+import Cart from "./components/Cart/Cart";
 
 function App() {
   const [cartShown, setCartShown] = useState(false);
