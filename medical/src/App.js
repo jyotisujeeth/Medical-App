@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Header from "./Components/Header/Header";
-import Form from "./Components/Form/Form";
-import List from "./Components/List/List";
+import Header from "../Components/Header/Header";
+import Form from "../Components/Form/Form";
+import List from "../Components/List/List";
 import ContextProvider from "./Store/ContextProvider";
 import Cart from "./Components/Cart/Cart";
 
